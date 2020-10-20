@@ -3,6 +3,8 @@ import './database/connection'
 import {getRepository} from 'typeorm';
 import Orphanage from './models/Orphanage'
 
+import routes from './routes'
+
 const app = express()
 
 app.use(express.json());
