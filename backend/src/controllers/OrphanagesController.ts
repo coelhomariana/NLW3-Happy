@@ -36,6 +36,6 @@ export default {
     
         await orphanagesRepository.save(orphanage)
     
-        return response.json({message: "Hello world"})
+        return response.json(orphanage)
     }
 }
