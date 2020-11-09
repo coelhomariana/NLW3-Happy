@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-leaflet": "^2.5.2",
     "@types/react-router-dom": "^5.1.6",
+    "cors": "^2.8.5",
     "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -19,7 +20,8 @@
     "react-leaflet": "^2.7.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/yup": "^0.29.9"
   }
 }
